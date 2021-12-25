@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Padauk', sans-serif,'Roboto';
+}
+body{
+    color: #fff;
+    background-color: #333333;
+}
+.box {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.info {
+  width: 50%;
+}
+.info-title {
+    color: #ff6f91;
+}
+.info-description {
+  font-size: 15px;
+  margin: 20px 0;
+}
+.info-place {
+    font-size: 21px;
+}
+.current-place{
+    color: #ff6f91;
+}
+.map {
+    
+}
+.map svg {
+   stroke: #fff;  /*နယ်နမိတ် စည်းမျ်နး */
+  stroke-opacity: 0.5;
+}
+.map svg path{
+    transition: 0.5s;
+    fill: #ff6f91;
+}
+.map svg path:hover{
+    fill: #fff;  /*bg-color ထည့်တာ*/
+}
